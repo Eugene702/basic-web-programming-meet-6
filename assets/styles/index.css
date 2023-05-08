@@ -1,0 +1,60 @@
+.hero-index{
+    width: 100%;
+    padding: 80px;
+    background-color: #f9fafb;
+}
+
+.hero-index .container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-index > .container > .model{
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+.hero-index > .container > section > h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-index > .container > section > p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #9ca3af;
+}
+
+.hero-intro{
+    width: 80%;
+    margin: 15rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 20px;
+    align-items: center;
+}
+
+.hero-intro > .sideleft > h1{
+    font-size: 3rem;
+}
+
+.hero-intro > .sideleft > p{
+    font-size: 1.2rem;
+    color: #9ca3af;
+    margin-top: 10px;
+}
+
+.hero-intro > .sideright{
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 300px solid #4ade80; /* Ganti "red" dengan warna yang Anda inginkan */
+    border-bottom: 200px solid transparent;
+    transform: rotate(0deg);
+    justify-self: end;
+}

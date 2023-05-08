@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jua', 'sans-serif';
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #e5e7eb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button[type='submit']{
+    background-color: #4ade80;
+    color: white;
+    padding: 7px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+button[type='submit']:hover{
+    transform: scale(1.1);
+}
+
+button[type='submit']:focus{
+    transform: scale(.9);
+}
+
+nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav > a{
+    color: #4ade80;
+    font-weight: bold;
+    font-size: 2rem;
+    transition-duration: 300ms;
+}
+
+nav > a:hover{
+    transform: scale(1.1);
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+nav > ul > li > a{
+    color: black;
+    font-size: 1.1rem;
+}
+
+nav > ul .register{
+    background-color: #4ade80;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 9999px;
+    transition: 300ms;
+}
+
+nav > ul .register:hover{
+    transform: scale(1.1);
+}
+
+nav > ul .register:active{
+    transform: scale(.9);
+}
